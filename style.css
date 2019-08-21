@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-size: 100%;*/
+	/*font: inherit;*/
+	vertical-align: baseline;
+	text-align: center;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+video{
+	width: 100vw;
+	position: relative;
+}
+	
+	
+/*Kratos Adjustments*/
+
+	h1 {
+		font-family: Arial, Helvetica, sans-serif;
+		color: white;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		/*font-size: 100%;*/
+		/*font: inherit;*/
+		vertical-align: baseline;
+		text-align: center;
+	}
+	
+	header {
+		height: 345px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		/*z-index: 10;*/
+		background: #dbdbdb;
+		position: fixed;
+		top: 0px;
+		/*background-image: cover;*/
+	}
+	
+	#banner {
+		height: 140px;
+		width: 100%;
+		z-index: 10;
+		border-top: 4px solid white;
+		border-bottom: 4px solid white;
+		/*border-top: 5px;
+		border-top-color: #fff;*/
+		position: relative;
+		top: 345px;
+		background: #b53a26;
+	}
+
+	#content {
+		height: 1500px;
+		width: 100%;
+		z-index: 10;
+		position: relative;
+		top: 345px;
+		background: #3d69ae;
+	}
+	
+	#kratoscontentlogo {
+		top: 20px;
+		position: relative;
+	}
+	
+	#kratostagline {
+		top: 20px;
+		position: relative;
+	}
+	
+	#branches {
+		top: 60px;
+		position: relative;
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: center;
+	}
+	
+	#emblems > div {
+		top: 5px;
+		margin: 0px;
+		float: left;
+		position: relative;
+	}
+	
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	
+	#boxImage_leftcontainer {
+		width: 528px;
+		min-height: 256;
+		background: #3d69ae;
+		margin-top: 100px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		z-index: 10;
+	}
+	
+	#boxImage_rightcontainer {
+		width: 528px;
+		min-height: 256;
+		background: #3d69ae;
+		margin-top: 100px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		z-index: 10;
+		justify-content: flex-end
+	}
+	
+	#box {
+		width: 256px;
+		height: 256px;
+		position: relative;
+		background: #A4A4A4;
+		margin: 4px;
+		box-sizing: border-box;
+		display: inline-block;
+		border: 1px solid #666;
+		z-index: 10;
+	}
+	
+	#box:hover {
+		border: 2px solid #fff;
+	}
+	
+	#footer {
+		height: 140px;
+		width: 100%;
+		z-index: 10;
+		border-top: 4px solid white;
+		/*border-bottom: 4px solid white;
+		border-top: 5px;
+		border-top-color: #fff;*/
+		position: relative;
+		top: 345px;
+		background: #182A61;
+		
+	}
